@@ -16,6 +16,11 @@
     /* padding-left: 250px; */
     /* color: blue; */
   }
+  .form-header {
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 250px;
+  }
   .login-header {
     float: left;
     margin-right: 30px;
@@ -78,6 +83,7 @@
     background: #0a69d0;
     color: #fafafa;
     margin-top: 1rem;
+    width: 100%
   }
   
   button[disabled] {
@@ -110,10 +116,11 @@
   .widget-list {
     /* border: 1px solid #dedede; */
     text-align: left;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: top;
     width: 400px;
     padding: 20px;
+    margin: 0 auto;
   }
   
   .widget-list {

@@ -36,15 +36,23 @@ class Signup extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <div className="login-header">
+          {/* <div className="login-header">
             <Link to="/login">Login</Link>
           </div>
           <div className="signup-header">
             <Link to="/signup">Signup</Link>
-          </div>
+          </div> */}
         </div>
         <section className="App-body">
           <div className="signup">
+            <div className="form-header">
+              <div className="login-header">
+                <Link to="/login">Login</Link>
+              </div>
+              <div className="signup-header">
+                <Link to="/signup">Signup</Link>
+              </div>
+            </div>
             {/* Use the Submit handler with our own submit handler*/}
             <form className="widget-form" onSubmit={handleSubmit(this.submit)}>
               <h1>User Signup</h1>

@@ -47,15 +47,23 @@ class Login extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <div className="login-header">
+          {/* <div className="login-header">
             <Link to="/login">Login</Link>
           </div>
           <div className="signup-header">
             <Link to="/signup">Signup</Link>
-          </div>
+          </div> */}
         </div>
         <section className="App-body"> 
           <div className="login">
+            <div className="form-header">
+              <div className="login-header">
+                <Link to="/login">Login</Link>
+              </div>
+              <div className="signup-header">
+                <Link to="/signup">Signup</Link>
+              </div>
+            </div>
             <form className="widget-form" onSubmit={handleSubmit(this.submit)}>
               <h1>User Login</h1>
               <label htmlFor="email">Email</label>

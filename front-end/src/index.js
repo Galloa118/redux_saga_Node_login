@@ -25,7 +25,7 @@ ReactDOM.render(
     <BrowserRouter history={history}>
       <div>
         <Switch>
-          <Route exact path="/" component={App}/>
+          <Route exact path="/" component={Login}/>
           <Route exact path="/app" component={App}/>
           <Route exact path="/login" component={Login}/>
           <Route exact path="/signup" component={Signup}/>
